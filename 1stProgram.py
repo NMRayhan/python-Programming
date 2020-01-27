@@ -12,3 +12,4 @@ a = 1
 b = 3.4
 print(a+b)
 #result = number1+number2
+print(a,b,n) #Function Argument Pass
