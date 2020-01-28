@@ -4,3 +4,7 @@ print(Number[0])
 print(Number[5])
 print(Number[10-4])
 print("Total Number is This List ",len(Number))
+
+print(3 in Number)
+print(10 in Number)
+print(11 not in Number)
