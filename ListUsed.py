@@ -9,8 +9,15 @@ print("Total Number is This List ",len(Number))
 print(3 in Number)
 print(10 in Number)
 print(11 not in Number)
-a = Number[3]
-b = Number[8]
+a = 6
+b = 3
 print(math.floor(b/a))
 print(math.ceil(b/a))
 print(b//a)
+print(math.comb(6,3))
+fact_A = math.factorial(a)
+print(fact_A)
+fact_B = math.factorial(b)
+print(fact_B)
+result = (fact_A)/(fact_B*(fact_A-fact_B))
+print(result)
