@@ -13,3 +13,5 @@ name = 2.342322428762426
 print(type(name))
 name = True
 print(type(name))
+#formate
+print(f"{num1} + {num2} = {num1+num2}")
