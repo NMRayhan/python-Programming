@@ -11,3 +11,5 @@ name = 2.3
 print(type(name))
 name = 2.342322428762426
 print(type(name))
+name = True
+print(type(name))
