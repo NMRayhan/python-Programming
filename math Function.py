@@ -1,4 +1,9 @@
 import math
+
+n1 = int(input("Enter 1st Number : "))
+n2 = int(input("Enter 2nd Number : "))
+
+print(f" {n1} + {n2} = {n1+n2}")
 print(math.factorial(3))
 print(math.ceil(3.4))
 print(math.floor(3.4))
