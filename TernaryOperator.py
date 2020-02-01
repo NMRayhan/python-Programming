@@ -1,28 +1,15 @@
-'''number1 = int(input("Enter Any Possitive Number "))
-number2 = int(input("Enter Another Possitive Number "))
-number3 = int(input("Enter Another Possitive Number "))
-'''
-'''
-if(number1>number2):
-    print(number1)
-else:
-    print(number2)
-'''
-'''
-maximum_Number = number1 if number1>number2 else number2
-print(f"{maximum_Number} is Maximum Number ")
-'''
-'''
-if(number1>number2):
-    if(number1>number3):
-        print(number1)
+item_a = {'name':'item_A', 'Qualitu':'Best', 'price':'37.9'}
+item_b = {'name':'item_B', 'Qualitu':'Good', 'price':'33.5'}
+#item_c = {'name':'item_C', 'Qualitu':'Average', 'price':'28.7'}
+
+if item_a['price']<item_b['price']:
+    if item_a['Qualitu'] == 'Best' and item_b['Qualitu'] == 'Good' and (item_a['price'] - item_b['price']) > 4:
+        Best = item_a
     else:
-        print(number3)
-maximum_Number = number1 if number1>number2  number1>number3 else number3
-'''
-item_a = 32.3
-item_b = 30.1
-print(f"Cheapset price in ${item_a if item_a>item_b else item_b}")
-
-
-
+        Best = item_b
+else:
+    if item_b['Qualitu'] == 'Best' and item_a['Qualitu'] == 'Good' and (item_b['price'] - item_a['price']) < 4:
+        Best = item_b
+    else:
+        Best = item_a
+print(f"Best Item Name is : {Best['name']}")
