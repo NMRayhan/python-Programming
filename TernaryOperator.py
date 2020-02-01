@@ -22,9 +22,7 @@ maximum_Number = number1 if number1>number2  number1>number3 else number3
 '''
 item_a = 32.3
 item_b = 30.1
-
-Cheapset = item_a if item_a>item_b else item_b
-print(f"Cheapset price in ${Cheapset}")
+print(f"Cheapset price in ${item_a if item_a>item_b else item_b}")
 
 
 
