@@ -1,5 +1,5 @@
 #leap Year
-'''
+"""
 
 year = int(input("Enter Year Number : "))
 
@@ -17,10 +17,19 @@ print(bool(False))#Return False
 print(bool({}))#Return False
 print(bool([]))#Return False
 print(bool(()))#Return False
-'''
+"""
 
-Latter = input("Enter Latter \n")
+'''Latter = input("Enter Latter \n")
 if Latter == "a" or Latter == "e" or Latter == "i" or Latter == "o" or Latter == "u":
     print("this is Vowel")
+else:
+    print("Consonant") '''
+OrginalWord = input("Enter A Word ")
+Word = OrginalWord.lower()
+
+first = Word[0]
+
+if first in 'aeiou':
+    print("Vowel")
 else:
     print("Consonant")
