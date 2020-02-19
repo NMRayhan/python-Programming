@@ -1,5 +1,7 @@
-initial = 2
+sum = 0
+initial = 1
 while initial <= 10:
-    print(initial)
-    initial=initial+2
+    sum = sum + initial
+    initial=initial+1
+print("Sum of This Range ",sum)
 print("End of Program")
